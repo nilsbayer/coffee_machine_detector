@@ -18,11 +18,8 @@ def gen_frames():
 
         result = model(frame)
         search_results = result.xyxy[0]
-
-        # if len(search_results) > 0 and search_results[0][-2].item() > .55:
-        #     print(search_results)
         
-        frame = np.squeeze(result.render())
+        # frame = np.squeeze(result.render())
 
         if success:
             try:
