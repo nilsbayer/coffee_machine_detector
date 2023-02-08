@@ -1,0 +1,22 @@
+body :not(.footer) {
+    padding: 1rem;
+}
+
+h1 {
+    padding: 0 0 1rem 0;
+}
+
+h5 {
+    padding: 0 0 2rem 0;
+}
+
+p {
+    padding: 1rem 0;
+}
+
+.footer {
+    width: 100vw;
+    height: 20vh;
+    background-color: brown;
+    margin-top: 2rem;
+}
