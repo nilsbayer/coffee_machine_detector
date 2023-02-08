@@ -8,7 +8,7 @@ app = Flask(__name__)
 global search_results
 search_results = []
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='yolov5/runs/train/exp2/weights/last.pt', force_reload=True)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='weights/last.pt', force_reload=True)
 
 def gen_frames():
     camera = cv2.VideoCapture(1)
